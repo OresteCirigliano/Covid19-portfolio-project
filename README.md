@@ -1,4 +1,4 @@
-# portfolio_projects
+# COVID_portfolio_projects
 
 These are the queries that I used to create my dashboard of Covid19 analysis project implemented on Tableau platform.
 
