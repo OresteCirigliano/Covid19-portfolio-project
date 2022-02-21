@@ -31,7 +31,7 @@ where location like '%united k%'
 and continent IS NOT NULL
 order by 1,3 desc
 
---LOOCKING AT TOTAL CASES VS POPULATION
+--LOOKING AT TOTAL CASES VS POPULATION
 --SHOWS WHAT PERCENTAGE OF POPULATION GOT COVID
 
 SELECT location, date, population, total_cases, (total_cases/population)*100 AS Percentage_population_infected
@@ -39,7 +39,7 @@ From Covid_portfolio_project..Covid_Deaths$
 where location like '%united k%'
 order by 1,2
 
---Loocking at Countries with HIGHEST INFECTION RATE compared to Population
+--Looking at Countries with HIGHEST INFECTION RATE compared to Population
 
 SELECT location, population, MAX(total_cases) AS HighestInfectionCount, MAX((total_cases/population))*100 AS Percentage_population_infected
 From Covid_portfolio_project..Covid_Deaths$
